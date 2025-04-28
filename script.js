@@ -139,38 +139,44 @@
 // motor.doWheelie();
 // console.log(motor.name + " is a " + motor.color + " motorcycle with a speed of " + motor.speed + " km/h and runs on " + motor.fuel);
 
-class Car {
-    static wheels = 4
-    constructor(color, wheelsColor, brand, engine) {
-        this.color = color;
-        this.wheelsColor = wheelsColor;
-        this.brand = brand;
-        this.engine = engine;
-    }
-}
+// class Car {
+//     static wheels = 4
+//     constructor(color, wheelsColor, brand, engine) {
+//         this.color = color;
+//         this.wheelsColor = wheelsColor;
+//         this.brand = brand;
+//         this.engine = engine;
+//     }
+// }
 
-class PetrolCar extends Car {
-    constructor(milaege) {
-        super("White", "Black", "BMW", 2800);
-        this.milaege = milaege;
-    }
-}
+// class PetrolCar extends Car {
+//     constructor(milaege) {
+//         super("White", "Black", "BMW", 2800);
+//         this.milaege = milaege;
+//     }
+// }
 
-class ElectricCar extends Car {
-    constructor(color, wheelsColor, brand, engine, batteryBackup, chargingTime) {
-        console.log("Hello, I am inside constructor");
-        super(color, wheelsColor, brand, engine);
-        this.batteryBackup = batteryBackup;
-        this.chargingTime = chargingTime;
-    }
-}
+// class ElectricCar extends Car {
+//     constructor(color, wheelsColor, brand, engine, batteryBackup, chargingTime) {
+//         console.log("Hello, I am inside constructor");
+//         super(color, wheelsColor, brand, engine);
+//         this.batteryBackup = batteryBackup;
+//         this.chargingTime = chargingTime;
+//     }
+// }
 
-var electricCar = new ElectricCar("White", "Black", "Audi", 3000, "400kms", "4 hours");
-console.log(electricCar);
-var electricCar2 = new ElectricCar("White", "Black", "BMW", 2800, "500kms", "4 hours");
-console.log(electricCar2);
+// var electricCar = new ElectricCar("White", "Black", "Audi", 3000, "400kms", "4 hours");
+// console.log(electricCar);
+// var electricCar2 = new ElectricCar("White", "Black", "BMW", 2800, "500kms", "4 hours");
+// console.log(electricCar2);
 
-let petrolCar = new PetrolCar("White", "Black", "BMW", 2800, "500kms", "4 hours");
-console.log(petrolCar);
-let petrolCar2 = new PetrolCar("White", "Black", "BMW", 2800, "500kms", "4 hours");
-console.log(petrolCar2);
+// let petrolCar = new PetrolCar("White", "Black", "BMW", 2800, "500kms", "4 hours");
+// console.log(petrolCar);
+// let petrolCar2 = new PetrolCar("White", "Black", "BMW", 2800, "500kms", "4 hours");
+// console.log(petrolCar2);
+
+
+// Person.prototype.introduce = function() {
+//     console.log("Hello, I am " + this.name);
+// }
+// let person1 = new Person("John", 30, "New York");
